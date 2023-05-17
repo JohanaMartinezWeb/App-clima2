@@ -1,6 +1,5 @@
 body {
-	background: rgb(238, 174, 202);
-	background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(211, 178, 211, 1) 30%, rgba(148, 187, 233, 1) 100%);
+	background-color: #d6d2d2;
 	color: black;
 	text-align: center;
 	margin: 0;

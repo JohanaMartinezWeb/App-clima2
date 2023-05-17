@@ -15,7 +15,7 @@ const Icons = (icon) => {
 			console.log('LLUVIA')
 			break;
 		case 'Snow':
-			icon = 'icons/snowy.svg'
+			icon = 'icons/snow.svg'
 			console.log('NIEVE')
 			break;
 		case 'Clear':
@@ -38,9 +38,12 @@ const Icons = (icon) => {
 			icon = 'icons/haze.svg'
 			console.log('BRUMAS')
 			break;
-		default:
+		case 'Smoke':
 			icon = 'icons/smoke.svg'
-			console.log('HUMP')
+			console.log('HUMO')
+		default:
+			icon = 'icons/clear-day.svg'
+			console.log('LIMPIO')
 	}
 	return icon
 }
